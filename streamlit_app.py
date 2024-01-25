@@ -24,4 +24,4 @@ uploaded_file = st.file_uploader(
 if uploaded_file is not None:
     file_name = uploaded_file
 else:
-    file_name = "fruit_macros.txt"
+    file_name = "streamlit.xlsx"
