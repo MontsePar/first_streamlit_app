@@ -17,11 +17,3 @@ my_fruit_list = my_fruit_list.set_index('Fruit')
 streamlit.multiselect("Pick some fruits:", list(my_fruit_list.index),['Avocado','Strawberries'])
 
 # Display the table on the page. 
-
-
-uploaded_file = st.file_uploader(
-    "streamlit", accept_multiple_files=False)
-if uploaded_file is not None:
-    file_name = uploaded_file
-else:
-    file_name = "streamlit.xlsx"
